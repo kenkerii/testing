@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Gentium+Book+Plus:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Gentium+Book+Plus:ital,wght@1,700&family=Metal+Mania&display=swap');
+
+html, body {
+    margin: 0%;
+    padding: 0%;
+} 
+.bg-light {
+    --bs-bg-opacity: 0;
+}
+
+#HOME{
+    
+    background-image: url(./images/made\ in\ lag\ wiz.jpg);
+    background-size: cover;
+background-color: grey;
+padding-bottom: 10%;
+}
+
+.navbar{
+    display:block;
+}
+
+
+.nav-link:hover{
+    background-color: brown;
+    padding: 10px;
+    color: aliceblue;
+}
+.d-flex{
+    width: 30%;}
+
+
+.band-name {
+    margin-top: 10%;
+    line-height: 1.5;
+    font-size: 6em;
+    font-weight: bolder;
+    font-family: 'Gentium Book Plus', serif;
+    padding-bottom: 10px;
+    color: black;
+    position: absolute;
+
+}
+
+.btn-album{ 
+border: 2px solid;
+margin-top: 22%;
+
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.p-about{
+    background-color: brown;
+    color: rgb(197, 188, 188);
+    padding-bottom: 4%;
+    
+}
+.h-about{
+    background-color: brown;
+}
+
+.section-header {
+    font-family: 'metal mania';
+    font-weight: normal;
+    color: rgb(88, 88, 88);
+    text-align: center;
+    font-size: 2.5em;
+    margin: 0%;
+}
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: 1em;
+    cursor: pointer;
+
+}
+.btn-header {
+    color: white;
+    border: 2px solid brown;
+    background-color: rgba(255, 255, 255, .1);
+    font-size: 20px;
+    font-weight: lighter;
+    margin-left: 5em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+
+.btn-primary {
+    color: white;
+    background-color: brown;
+    border: none;
+    border-radius:3px;
+}
+
+.btn-primary:hover {
+--bs-btn-hover-bg: #68151d
+}
+.btn-danger {
+    color: white;
+    background-color: rgb(224, 78, 11);
+    border: none;
+    border-radius:3rem;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: brown;
+}
+.tow-row {
+
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+}
+
+.tow-row :last-child {
+    border-bottom: none;
+}
+
+.tour-item {
+    display: inline-block;
+    padding: .5em;
+}
+
+.tour-date {
+    color: #555;
+    font-weight: bold;
+    width: 11%;
+}
+
+.tour-city {
+    width: 24%;
+}
+
+.tour-arena {
+    width: 42%;
+}
+
+.about-image {
+    float: left;
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 50%;
+}
+.shop-item {
+    margin: 30px;
+}
+
+
+#footer {
+    background-color: brown;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.footer-head{
+    font-size:2rem;
+            
+            line-height: 1.5;
+            font-size: 5em;
+            font-weight: bolder;
+            font-family: 'Gentium Book Plus', serif;
+            color: black;
+}
+.icon {
+    color: black;
+    padding: 10px;
+}
+.icon:hover {
+    color: white;
+}
+
+
+
+@media (max-width: 992px) { 
+    #HOME{
+        padding-bottom: 40%;
+    }
+    
+
+    .band-name{
+        color: black;
+        font-size: 4.5rem;
+        margin-top: 45%;
+        position:absolute; 
+    }
+
+
+.d-flex{
+    width: fit-content;
+}
+.bg-light {
+    --bs-bg-opacity: 0.0;
+}
+.collapse{
+    font-size: 1em;
+
+}
+.btn-album{
+    margin-top: 65%;
+    position:absolute;
+
+}
+.navbar{
+    display:flex;
+}
+#navbarTogglerDemo02 {
+    padding-bottom: 60px;
+    margin-bottom: 60px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* .product-image {
+    float: left;
+    width: 20%px;
+}
+.product-details {
+    float: left;
+    width: 37%;
+}
+.product-price {
+    float: left;
+    width: 12%;
+}
+
+.product-quantity {
+    float: left;
+    width: 10%;
+}
+.product-removal {
+    float: left;
+    width: 9%;
+}
+
+.product-line-price {
+    float:inline-end;
+    width: 12%;
+    text-align: right;
+} */
